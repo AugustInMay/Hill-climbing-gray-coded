@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ega4.dir/main.cpp.o  -o ega4 

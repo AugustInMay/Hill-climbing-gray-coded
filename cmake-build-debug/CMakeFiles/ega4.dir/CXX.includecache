@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/augustinmay/CLionProjects/ega4/main.cpp
+iostream
+-
+string
+-
+ctime
+-
+math.h
+-
+bitset
+-
+iomanip
+-
+

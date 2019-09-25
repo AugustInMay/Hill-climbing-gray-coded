@@ -1,0 +1,3 @@
+/home/augustinmay/CLionProjects/ega4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/augustinmay/CLionProjects/ega4/cmake-build-debug/CMakeFiles/ega4.dir
+/home/augustinmay/CLionProjects/ega4/cmake-build-debug/CMakeFiles/edit_cache.dir
