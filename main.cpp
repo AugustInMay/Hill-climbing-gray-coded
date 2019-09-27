@@ -25,13 +25,17 @@ void neighb_fill(bitset<5> inp, bitset<5> *out){
 }
 
 int max_around(bitset<5> inp, bitset<5> *out, int *Q){
-    int ret=(int)(inp.to_ulong());
+    bitset<5> ret, out2[5];
+    gray_decode(inp, &ret);
     for(int i=0; i<5; i++){
-        if(Q[(int)(out[i].to_ulong())]>Q[ret]){
-            ret=(int)(out[i].to_ulong());
+        gray_decode(out[i], &out2[i]);
+    }
+    for(int i=0; i<5; i++){
+        if(Q[(int)(out2[i].to_ulong())]>Q[(int)(ret.to_ulong())]){
+            ret=(int)(out2[i].to_ulong());
         }
     }
-    return ret;
+    return (int)(ret.to_ulong());
 }
 
 int main() {
